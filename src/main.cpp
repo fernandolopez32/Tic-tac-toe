@@ -23,9 +23,12 @@ int main()
                             window.close();
                         break;
                 }
-                }
-            
+            }
+        window.clear();
+
+        // ojects to draw
+        window.display();
     }
 
-    
+    return EXIT_SUCCESS;
 }
