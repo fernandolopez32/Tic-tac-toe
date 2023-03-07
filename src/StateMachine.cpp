@@ -39,11 +39,11 @@ namespace Sonar
                 }
             }
             this-> _states.push(std::move(this-> _newState));
-            this-> _states.top()-> Init();
+            this-> _states.top()->Init();
             this-> _isAdding = false;
         }
     }
-    StateRef &StateMachine::GetActiveStaet()
+    StateRef &StateMachine::GetActiveState()
     {
      return this-> _states.top();   
     }

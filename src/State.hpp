@@ -5,7 +5,7 @@ namespace Sonar
     class State
     {
         public:
-            virtual void Int() = 0; 
+            virtual void Init() = 0; 
 
             virtual void HandleInput() = 0; 
             virtual void Update() = 0;
