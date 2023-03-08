@@ -2,6 +2,7 @@
 
 #include <iostream>
 
+#include "Game.hpp"
 // #define SCREEN_WIDTH 1024
 
 // #define SCREE_HEIGHT 1024
@@ -29,6 +30,8 @@ int main()
     //     // ojects to draw
     //     window.display();
     // }
+
+    Sonar::Game(800,600, "SFML Starter")
 
     return EXIT_SUCCESS;
 }
