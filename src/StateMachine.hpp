@@ -4,7 +4,6 @@
 #include <stack>
 
 #include "State.hpp"
-
 namespace Sonar
 {   
     typedef std::unique_ptr<State> StateRef;    

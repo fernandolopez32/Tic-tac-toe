@@ -10,7 +10,7 @@ namespace Sonar
 {
     class SplashState : public State
     {
-        public : 
+        public :  
             SplashState(GameDataRef);
 
             void Init();
@@ -28,23 +28,5 @@ namespace Sonar
 
         sf::Sprite _Background;
     };
-//   class SplashState : public State
-//   {
-//     public : 
-//         SplashState(GameDataRef data);
 
-//         void Init();
-
-//         void HandleInput();
-//         void Update( float dt);
-//         void Draw (float dt); 
-
-//     private :
-
-//         GameDataRef _data;
-
-//         sf::Clock _clock;
-
-//         sf::Sprite _background;
-//   };
 } 

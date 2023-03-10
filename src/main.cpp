@@ -33,7 +33,7 @@ int main()
     //     window.display();
     // }
 
-    Sonar::Game(SCREEN_WIDTH,SCREEN_HEIGHT, "SFML Starter")
+    Sonar::Game(SCREEN_WIDTH,SCREEN_HEIGHT, "SFML Starter");
 
     return EXIT_SUCCESS;
 }

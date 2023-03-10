@@ -11,11 +11,11 @@ namespace Sonar
 
     }
 
-    void Spalshstate::Init()
+    void SplashState::Init()
     {
-        this-> _data->assests.LoadTexture("Slash State Background", "SPLASH_SCENE_BACKGROUND_FILEPATH ");
+        this-> _data->assets.LoadTexture("Slash State Background", "SPLASH_SCENE_BACKGROUND_FILEPATH ");
 
-        _background.setTexture( this-> _data->assets.GetTexture("Slash State Background"));
+        _Background.setTexture( this-> _data->assets.GetTexture("Slash State Background"));
 
     };
 

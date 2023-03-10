@@ -6,11 +6,11 @@
 
 #include <SFML/Graphics.hpp>
 
-#include<StateMachine.hpp>
+#include "StateMachine.hpp"
 
-#include <AssetManager.hpp>
+#include "AssetManager.hpp"
 
-#include <InputManager.hpp>
+#include "InputManager.hpp"
 
 namespace Sonar
 {
