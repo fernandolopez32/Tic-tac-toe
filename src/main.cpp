@@ -33,7 +33,10 @@ int main()
     //     window.display();
     // }
 
+        std::cout << SPLASH_SCEEN_BACKGROUND_FILEPATH << std::endl;
+
     Sonar::Game(SCREEN_WIDTH,SCREEN_HEIGHT, "SFML Starter");
+
 
     return EXIT_SUCCESS;
 }
