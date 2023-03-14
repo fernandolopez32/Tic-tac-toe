@@ -2,6 +2,7 @@
 #include <iostream>
 namespace Sonar
 {
+    // method to load textures into the game
     void AssetManager::LoadTexture(std::string name, std::string fileName)
 {
     sf::Texture tex;
@@ -25,6 +26,8 @@ namespace Sonar
     //     }
     // }
 
+
+// Getting the texture from the map of textures in order to draw it
 sf::Texture& AssetManager::GetTexture(std::string name)
 {
     try
