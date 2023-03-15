@@ -1,5 +1,7 @@
 #include <sstream>
 #include "SplashState.hpp"
+#include "MainMenuState.hpp"
+
 
 #include <iostream>
 
@@ -37,7 +39,8 @@ namespace Sonar
         if(this->_clock.getElapsedTime().asSeconds() > SPLASH_STATE_SHOW_TIME)
         {
             //SWITCH TO MAIN MENU 
-            std::cout<<"go to main menu" << std::endl;
+            // std::cout<<"go to main menu" << std::endl;
+            this->_data->machine.AddState(StateRef (new MainMenuState(_data)), true);
         }
     }
 

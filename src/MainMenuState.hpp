@@ -7,6 +7,7 @@ namespace Sonar
 {
     class MainMenuState : public State
     {
+    public:
         MainMenuState (GameDataRef data);
 
         void Init();
